@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) throws SizeException, DataException {
         String[][] strings = {{"1", "2", "3", "4"},
                 {"1", "2", "3", "4"},
-                {"1", "2", "x", "4"},
+                {"1", "2", "w", "4"},
                 {"1", "2", "3", "4"}};
         System.out.println(countSum(strings));
     }
